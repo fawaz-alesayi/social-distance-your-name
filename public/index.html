@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="Social distance your name - باعد اسمك لغويا">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>باعد اسمك</title>
+</head>
+
+<body>
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <form class="col-12">
+        <p class="text-center" id="heading" dir="rtl">بـ ا عـ د&nbsp; &nbsp; &nbsp; &nbsp;ا سـ مـ ك</p>
+        <p class="text-center" dir="rtl">اضغط على الاسم لو تبي تنسخه</p>
+        <input type="text" oninput="sepName()" class="form-control w-50 mx-auto" id="input" placeholder="حط اسمك"
+          dir="rtl">
+        <div id="name" class="mt-4" onclick="copyDiv()">
+          مـ حـ مـ د
+        </div>
+        <div id="small">
+          صنع بسرعة من قبل فواز
+        </div>
+        <nav id="links" class="text-center">
+          <a href="https://twitter.com/fawaztsa" target="_blank">
+            <img height="32" width="32" src="/assets/twitter.svg" />
+          </a>
+          <a href="https://github.com/fulayfel" target="_blank">
+            <img height="32" width="32" src="/assets/github.svg" />
+          </a>
+        </nav>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

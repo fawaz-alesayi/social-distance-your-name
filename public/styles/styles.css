@@ -1,0 +1,53 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  background-color: #FCFFE0;
+}
+
+.col {
+  text-align: center;
+}
+
+#name {
+  font-size: calc(1.325rem + 0.9vw);
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  #name {
+    font-size: 2rem;
+  }
+}
+
+#heading {
+  font-size: calc(1.425rem + 2.1vw);
+}
+
+@media (min-width: 1200px) {
+  #heading {
+    font-size: 3rem;
+  }
+}
+
+#small {
+  margin-top: 25%;
+  color: #727272;
+  text-align: center;
+}
+
+#links a {
+  text-decoration: none;
+}
+
+#links img {
+  margin: 15px;
+}
+
+#links img:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=styles.css.map */

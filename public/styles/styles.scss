@@ -1,0 +1,43 @@
+@import "../node_modules/rfs/scss";
+
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #FCFFE0;
+}
+.col {
+    text-align: center;
+}
+
+#name {
+    @include font-size(2rem);
+    text-align: center;
+    cursor: pointer;
+}
+
+#heading {
+    @include font-size(3rem);
+}
+
+#small {
+    margin-top: 25%;
+    color: #727272;
+    text-align: center;
+}
+
+#links {
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        margin: 15px;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

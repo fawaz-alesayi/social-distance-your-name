@@ -1,0 +1,22 @@
+{
+  "name": "social-distance-your-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./app",
+    "dev": "nodemon node ./app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "forever": "^3.0.0",
+    "helmet": "^3.23.1",
+    "rfs": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
